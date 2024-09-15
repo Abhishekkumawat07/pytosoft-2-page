@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #a9d1ff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+.small-box-1{
+    height: 460px;
+    position: relative;
+    background-image: url(colleagues.webp);
+    ;
+
+    .logoimg {
+        position: absolute;
+        top: 50px;
+        left: 200px;
+    }
+}
+.logoimg{
+    height: 20px !important;
+    width: 30px !important;
+}
+
+.login-form {
+    
+    background-color: #add4ee;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.checkbox {
+    margin-bottom: 20px;
+}
+
+.checkbox label {
+    display: block;
+    margin-top: 5px;
+}
+
+.btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
